@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -10,7 +10,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import SocialProofTwo from '@/components/sections/socialProof/SocialProofTwo';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Award, Crown, Handshake, Key, MessageSquare, UtensilsCrossed, Waves } from "lucide-react";
+import { Award, Crown, Handshake, Key, MessageSquare, UtensilsCrossed, Waves, Car } from "lucide-react";
 
 export default function Home() {
   return (
@@ -130,7 +130,7 @@ export default function Home() {
             },
             {
               id: "3",
-              icon: "Car",
+              icon: Car,
               title: "Valet Service",
               value: "Complimentary"
             }
